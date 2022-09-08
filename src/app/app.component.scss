@@ -1,0 +1,98 @@
+.container {
+  color: #fff;
+  max-width: 600px;
+  margin: auto;
+  box-sizing: border-box;
+
+  .input-text {
+    display: inline;
+    margin: 0;
+    border: none;
+    border-radius: 0.4rem;
+    padding: 12px;
+    width: 70%;
+    @media only screen and (max-width: 520px) {
+      width: 68%;
+    }
+    @media only screen and (max-width: 450px) {
+      width: 67%;
+    }
+  }
+
+  .add-btn {
+    color: #fff !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: rgb(45, 95, 180);
+    margin: 20px 0 20px 5%;
+    padding: 12px;
+    border-radius: 0.4rem;
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+    font-size: 16px;
+    @media only screen and (max-width: 600px) {
+      font-size: 12px;
+      padding: 12px 0;
+      //   width: 15%;
+    }
+    @media only screen and (max-width: 500px) {
+      font-size: 11px;
+      padding: 12px 0;
+      //   width: 15%;
+    }
+    @media only screen and (max-width: 400px) {
+      font-size: 10px;
+      padding: 12px 0;
+      //   width: 15%;
+    }
+  }
+
+  .list ul li button {
+    position: absolute;
+    right: 0%;
+    background: #f34541;
+    color: #fff !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 0.4rem;
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+  }
+
+  ul {
+    /* remove default padding and margin from ul*/
+    margin: 0px;
+    padding: 0px;
+  }
+  .list ul li {
+    display: block;
+    width: 92%;
+    text-decoration: none;
+    color: #000000;
+    background-color: #ffffff;
+    line-height: 30px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #cccccc;
+    padding: 10px 5% 10px 2%;
+    position: relative;
+  }
+}
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.app-title {
+  text-align: center;
+  color: #c1c1c1;
+  font-size: 70px;
+}
